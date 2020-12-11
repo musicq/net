@@ -1,0 +1,38 @@
+{
+  "name": "@musicq/net",
+  "version": "1.0.0",
+  "description": "A HTTP client built on top of RxJS.",
+  "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "es2015": "./dist/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "http",
+    "rxjs"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musicq/net.git"
+  },
+  "author": "musicq",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
